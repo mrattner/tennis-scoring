@@ -10,6 +10,11 @@ the `pointWonBy` and `score` methods.
 ## Expected inputs and outputs
 See the [Wikipedia article about tennis scoring][1].
 
+## Limitations
+The abbreviated nature of the exercise assumes that all inputs are valid, only
+one set is played per match, and a set ends only when one player wins based on
+scored points alone (no forfeits/disqualifications/retiring during the match).
+
 ### Example 1
 | Match point | Won by       | Score | Expected output            |
 | ----------- | ------------ | ----- | -------------------------- |
