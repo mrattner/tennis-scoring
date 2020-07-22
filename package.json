@@ -1,0 +1,19 @@
+{
+  "name": "tennis-scoring",
+  "repository": "https://github.com/mrattner/tennis-scoring.git",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=12.18.2"
+  },
+  "description": "Interface for a hypothetical tennis tournament scoring system",
+  "author": "M. Rattner",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "jasmine": "^3.5.0"
+  },
+  "scripts": {
+    "test": "jasmine spec/**",
+    "lint": "eslint ."
+  }
+}
