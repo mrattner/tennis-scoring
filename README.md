@@ -3,6 +3,10 @@
 Interface for a hypothetical tennis tournament scoring system. Written as an
 ES6/Node practice exercise for Evnex, 22 July 2020.
 
+In the top-level directory, run `npm install --only=dev` to install
+dependencies, and `npm test` to run the tests demonstrating the behaviour of
+the `pointWonBy` and `score` methods.
+
 ## Expected inputs and outputs
 See the [Wikipedia article about tennis scoring][1].
 
